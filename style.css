@@ -1,0 +1,120 @@
+body {
+    text-align: center;
+    font-family: 'Monttserat', sans-serif;
+    background-image: url('https://plus.unsplash.com/premium_photo-1673029927611-b4943d171781?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMDd8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+    background-size: cover;
+    background-position: center;
+}
+.profile-pic:hover {
+    transform: scale(1.1);
+}
+.name {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.button-container {
+    margin: 20px auto;
+}
+.button {
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    color: #f7f7f7;
+    background-color: #ff0025;
+    font-weight: bold;
+}
+.button:hover {
+    background-color: transparent;
+    border-color: #ff0025;
+    color: #ff0025;
+}
+.line {
+    border-top: 2px solid #333;
+    margin: 20px auto;
+    width: 50%;
+}
+.social-icons {
+    margin: 20px auto;
+}
+.social-icon {
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    font-size: 24px;
+}
+.social-icon:hover {
+    color: #3498db;
+}
+
+
+@keyframes moveIn {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+h1 {
+    animation: moveIn 1s ease-out;
+    color: #ffffff;
+}
+
+h2 {
+    animation: moveIn 1s ease-out;
+    color: #ffffff;
+}
+
+h3 {
+    animation: moveIn 1s ease-out;
+    color: #ffffff;
+}
+
+
+body {
+    font-family: 'Tw Cen MT', sans-serif; 
+    color: white;
+    text-align: center;
+    background-image: url('https://plus.unsplash.com/premium_photo-1673029927611-b4943d171781?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMDd8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60');
+    padding: 20px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profile-pic {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+p {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
